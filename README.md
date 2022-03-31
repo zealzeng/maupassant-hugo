@@ -237,6 +237,15 @@ type: archives
     Host = "https://cdn.jsdelivr.net/gh/user/user.github.io"
 ```
 
+#### JS CDN
+
+国内建议换成：cdn.bootcdn.net
+
+```toml
+[params]
+  cdnJsSite = "cdn.bootcdn.net" # 默认：cdnjs.cloudflare.com
+```
+
 #### Disqus
 
 该主题支持Disqus评论，如果要启用Disqus，可以在`config.toml`里添加如下配置即可.
