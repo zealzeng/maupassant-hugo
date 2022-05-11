@@ -63,14 +63,6 @@ theme = "maupassant"
 
 在主题的 [exampleSite](exampleSite/) 示例目录下有`config.toml `文件，把`config.toml `文件复制到你的站点目录下，然后根据自己的需求修改即可
 
-**PS: 一定要使用`post`目录，而不是`posts`,一定要记住，所以如果你使用`hugo`命令，你应该`hugo new post/filename.md`这样创建**
-
-**PS: 一定要使用`post`目录，而不是`posts`,一定要记住，所以如果你使用`hugo`命令，你应该`hugo new post/filename.md`这样创建**
-
-**PS: 一定要使用`post`目录，而不是`posts`,一定要记住，所以如果你使用`hugo`命令，你应该`hugo new post/filename.md`这样创建**
-
-
-
 #### 代码高亮
 
 从Hugo v0.60.0开始，默认使用`Goldmark`渲染MD文件，并且默认开启了代码高亮，所以该主题原来的代码高亮兼容出现问题，
@@ -376,7 +368,7 @@ disablePathToLower = true
    将代码块的语言标识符设置为`sequence`。例如
   
   ```
-  ​```sequence
+  ```sequence
   Alice->Bob: Hello Bob, how are you?
   Note right of Bob: Bob thinks
   Bob-->Alice: I am good thanks!
@@ -403,7 +395,7 @@ disablePathToLower = true
    将代码块的语言标识符设置为`flowchat`或者`flow`。例如
   
    ```
-  ​```flow
+  ```flow
   st=>start: Start
   op=>operation: Your Operation
   cond=>condition: Yes or No?
@@ -427,7 +419,7 @@ disablePathToLower = true
   将代码块的语言标识符设置为`viz-<engin>`， engin是选用的graphviz绘图引擎的名称，包括`circo`、`dot`、`fdp`、`neato` 、`osage`和`twopi`。例如
   
   ```
-  ​```viz-dot
+  ```viz-dot
   digraph G {
   
   	subgraph cluster_0 {
